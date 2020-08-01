@@ -1,6 +1,11 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import AlertContext from '../../Context/alert/alertContext'
 
-function Alert({ alert }){
+function Alert(){
+    const alertContext = useContext(AlertContext);
+    const { alert } = alertContext
+    console.log(alert)
+
     return (
         alert !== null &&
         (
@@ -8,7 +13,6 @@ function Alert({ alert }){
                 {alert.msg}
             </div>
         )
-
     )
 }
 

@@ -9,7 +9,7 @@ function UserItem(props) {
             <img src={avatar_url} className="round-img" alt="avatar" style={{ width: '60px'}} />
             <h3>{login}</h3>
             <div>
-                <Link to={`/user/${login}`} class="btn btn-dark btn-sm my-1">More</Link>
+                <Link to={`/user/${login}`} className="btn btn-dark btn-sm my-1">More</Link>
             </div>
         </div>
     );
