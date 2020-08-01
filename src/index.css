@@ -255,6 +255,11 @@ ul {
   width:30%;
 }
 
+.badge-lightgrey {
+  background: var(--light-color);
+  width: 13%;
+}
+
 .btn-dark,
 .bg-dark,
 .badge-dark,
@@ -316,9 +321,9 @@ input[type='text'],
 select,
 textarea {
   display: block;
-  width: 30%;
+  width: 70%;
   padding: 0.4rem;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   border: 1px solid #ccc;
 }
 
