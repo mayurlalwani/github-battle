@@ -11,7 +11,7 @@ https://githubfinduser.netlify.app/
 In the project directory, you can run:
 
 ### `npm install`
-Installs all the dependencies.
+To install all the dependencies.
 
 ### `npm start`
 
